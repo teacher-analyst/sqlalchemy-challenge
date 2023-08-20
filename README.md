@@ -1,15 +1,27 @@
 # sqlalchemy-challenge
-Module 10 Challenge
+This project is part of Module 10 Challenge of Data Analytics Bootcamp. 
 
-This challenge has been completed in two files: the climate_starter.ipynb and app.py. Both files access the hawaii sqlite database. 
+## Project Description
+Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii. To help with your trip planning, you decide to do a climate analysis about the area. 
 
-The climate starter file analyses and explores the climate data by specifically using SQLAlchemy ORM queries, Pandas and Matplotlib. First a percicipiation analysis is conducted and the results are ploted in a column graph and summary statistics are printed. Then, a station analysis is conducted. The station with the greatest number of observations is determined and lowest, highest and evrage temperature of that station are calculated. Then, a histogram is plotted of the previous 12 months of temperature observation data. 
+### Files supplied
+Hawaii sqlite database that contains two tables, measurements table has the weather station, temperature and precipitation data of Hawaii and the stations table has all the station details of the stations listed in the measurements table.  
 
-The app.py has the design of the flask API. A connection is made to the hawaii sqlite database. An api is created that has the following routes:
-/api/v1.0/precipitation
-/api/v1.0/stations
-/api/v1.0/tobs
-/api/v1.0/<start>
-/api/v1.0/<start>/<end>
+The tables in the sqlite database are also supplied as csv files.  
 
-The last two API's allow the input of dates which allows the user to choose the dates over which min, max and average temperature is to be caluclated and results returned. 
+#### Deliverables
+1. Explore climate data by conducting a precipitation and station analysis; plot a bar chart of the precipitation in mm in Hawaii over the last 12 months and a histogram of the previous 12 months of temperature observations. 
+2. Design a climate API that consists of static routes and dynamic routes. 
+
+### Screenshots
+<img width="477" alt="image" src="https://github.com/teacher-analyst/sqlalchemy-challenge/assets/130710065/beb12c8a-3657-490d-bb58-105a3fa3c004">
+
+<img width="983" alt="image" src="https://github.com/teacher-analyst/sqlalchemy-challenge/assets/130710065/69774043-731a-42ae-8f65-3bf41643627c">
+
+### Technologies 
+- Python via Jupyter Notebook and Visual Studio Code
+- SQLAlchemy ORM queries
+- Pandas
+- Matplotlib
+- SQLite
+- Flask
